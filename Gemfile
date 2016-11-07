@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 
-gem 'rails', '4.2.7'
+gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
 gem 'pg'
 
@@ -44,7 +44,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'thin'
-  gem 'quiet_assets'
+  # gem 'quiet_assets'
 
 end
 
