@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'by_category' => storefront#items_by_category
+  get 'by_category' => 'storefront#items_by_category'
 
-  get 'storefront/items_by_category'
+  get 'all' => 'storefront#all_items'
 
   resources :products
   resources :categories
