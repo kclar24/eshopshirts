@@ -1,0 +1,15 @@
+<h1>Items in Your Cart</h1>
+
+<% @line_items.each do |line_item| %>
+  <ul>
+    <li>
+      <%= line_items.quantity %>
+    </li>
+    <li>
+      <%= line_item.product.price %>
+    </li>
+    <li>
+      <%= number_to_currency(line_item.product.name) %>
+    </li>
+  </ul>
+<% end %>

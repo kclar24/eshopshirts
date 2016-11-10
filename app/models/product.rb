@@ -4,4 +4,5 @@ class Product < ApplicationRecord
 validates_attachment_content_type :image, content_type: /\Aimage\/.*\z/
 
   belongs_to :category
+  has_many :line_items
 end
