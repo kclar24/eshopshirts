@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  subtotal: 1.5
+  sales_tax: 1.5
+  grand_total: 1.5
+  user: one
+  order_items: MyText
+
+two:
+  subtotal: 1.5
+  sales_tax: 1.5
+  grand_total: 1.5
+  user: two
+  order_items: MyText
