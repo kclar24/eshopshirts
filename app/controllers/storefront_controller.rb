@@ -4,5 +4,7 @@ class StorefrontController < ApplicationController
   end
 
   def items_by_category
+    @category = Category.find(params[:category_id])
+    @products = Product.where(category_id: @category.id)
   end
 end
